@@ -1,0 +1,84 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  
+  body,h1,h2,ul,li,p,a{
+      margin: 0px;
+      padding: 0px;
+  
+  }
+   
+   
+  body{
+    font-family:"Open Sans", Arial, Helvetica, sans-serif ;
+  
+    color:#292F33;
+  }
+  
+  ul{
+    list-style: none;
+  }
+  
+  a{
+    text-decoration: none;
+  }
+  
+  img{
+    display: block;
+    max-width: 100%;
+
+  
+  }
+
+  .texto-principal{
+    background-color: black;
+    color:rgb(211, 205, 205);
+    text-align: center;
+    padding: 30px;
+  }
+
+  .texto-principal p{
+      padding-top: 20px;
+      color: #fff;
+  }
+
+  .cont-principal{
+     display: flex;
+     flex-wrap: wrap;
+     margin: 0 auto;
+     max-width: 1200px;
+  }
+
+  .cont-paragrafo{
+      line-height: 2;
+      text-align: justify;
+      padding: 40px;
+  }
+
+  .img-dado{
+    max-width: 80%; 
+    border-radius: 20px; 
+    margin: 0 auto;
+  }
+
+  .centra-fig{
+      text-align: center;
+  }
+.item-text-dado{
+    margin-bottom: 20px;
+}
+
+li{
+    line-height: 2;
+}
+
+.dado-2{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.dado-footer{
+    align-items: center;
+    background: black;
+}
